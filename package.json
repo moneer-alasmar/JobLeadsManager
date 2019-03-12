@@ -1,0 +1,24 @@
+{
+  "name": "reactDjangoLeadsManager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moneer-alasmar/JobLeadsManager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moneer-alasmar/JobLeadsManager/issues"
+  },
+  "homepage": "https://github.com/moneer-alasmar/JobLeadsManager#readme",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
+}

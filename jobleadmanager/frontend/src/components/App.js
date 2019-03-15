@@ -1,12 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Header from "./layout/Header";
+import Dashboard from "./leads/Dashboard";
 
 class App extends React.Component {
   render() {
     return (
-      <div>
-        <h1>Hello</h1>
-      </div>
+      <React.Fragment>
+        <Header />
+        <div className="container">
+          <Dashboard />
+        </div>
+      </React.Fragment>
     );
   }
 }
